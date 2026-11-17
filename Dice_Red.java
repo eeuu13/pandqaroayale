@@ -1,9 +1,8 @@
 public class Dice_Red extends Dice {
-    private int sides;
     public Dice_Red(int sides) {
         super(sides);
+        color="Red";
     }
-    @Override
     public int roll_red(int number_reds){
         int roll=random.nextInt(1,sides+1);
         if (roll<=sides/2){

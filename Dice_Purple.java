@@ -1,8 +1,8 @@
 public class Dice_Purple extends Dice {
-    private int sides;
 
     public Dice_Purple(int sides) {
         super(sides);
+        color="Purple";
     }
     @Override
     public int roll(){
